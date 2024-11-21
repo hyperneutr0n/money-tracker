@@ -1,0 +1,44 @@
+# Ignore sensitive configuration files
+application/config/config.php
+application/config/database.php
+
+# Ignore cache and logs
+application/cache/*
+application/logs/*
+!application/cache/index.html
+!application/logs/index.html
+
+# Ignore the vendor directory (if using Composer)
+vendor/
+
+# Ignore Composer files
+composer.lock
+
+# Ignore user guide
+user_guide/
+
+# Ignore system files
+system/
+
+# Ignore assets (if dynamically generated or uploaded files)
+assets/uploads/*
+!assets/uploads/index.html
+
+# Ignore environment-specific files
+.env
+
+# Ignore IDE-specific files
+*.sublime-project
+*.sublime-workspace
+.idea/
+.vscode/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore any other temporary files
+*.swp
+*.bak
+*.tmp
+*.log
